@@ -1,0 +1,42 @@
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-fold-btn {
+  color: white;
+}
+
+.menu-fold-btn:hover {
+  color: #666;
+}
+
+.menu-container {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  flex-grow: 1;
+}
+
+.menu-container ul {
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.menu-container ul ul {
+  padding-left: 10px;
+}

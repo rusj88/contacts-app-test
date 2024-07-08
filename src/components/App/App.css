@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure wrapper takes full viewport height */
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.aside {
+  position: sticky;
+  top: 0; /* Stick to the top of the parent (main) */
+  width: 30%;
+  max-width: 30%;
+  background-color: steelblue;
+  color: white;
+  height: 100vh; /* Full height of the parent (main) */
+  overflow-y: auto; /* Enable scrolling if menu items overflow */
+}
+
+.content {
+  padding: 12px;
+  flex: 1;
+}
+
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

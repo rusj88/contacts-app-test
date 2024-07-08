@@ -1,0 +1,22 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

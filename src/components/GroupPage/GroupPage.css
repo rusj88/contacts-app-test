@@ -1,0 +1,11 @@
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.group-button-container {
+  display: flex;
+  gap: 4px;
+}
